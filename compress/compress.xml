@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system">
+	<name>plg_compress</name>
+	<author>Roman Liashko</author>
+	<files>
+		<filename plugin="compress">compress.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+ 
+			<fieldset name="basic">
+ 
+				<field name="search_content" type="radio"
+					default="0"
+					description=""
+					label="Включить:"
+				>
+					<option value="0">JOFF</option>
+					<option value="1">JON</option>
+				</field>
+ 
+			</fieldset>
+ 
+		</fields>
+	</config>
+</extension>
